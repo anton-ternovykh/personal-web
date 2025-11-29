@@ -1,0 +1,46 @@
+{
+  "data": [
+    {
+      "name": "Timekeeping",
+      "desc": "Web-based application for a store's employee management, including recruitment, time-keeping, reporting, and payroll.",
+      "techStack": [
+        ".Net",
+        "Angular",
+        "MS SQL Server",
+        "Entity Framework",
+        "Bootstrap"
+      ],
+      "benefitsFromProject": [
+        "One entry point for a store manager to handle all employee-related tasks",
+        "Improved accuracy in time-keeping and payroll",
+        "Integration with BI tools for advanced reporting",
+        "Enhanced recruitment process with applicant tracking"
+      ],
+      "url": null
+    },
+    {
+      "name": "Retail Application Platform",
+      "desc": "Aplicaton platform with flexible architecture to support multiple retail applications.",
+      "techStack": ["Angular", "React", ".Net", "MS SQL Server", "SSRS"],
+      "benefitsFromProject": [
+        "Modular architecture allowing for easy addition of new applications",
+        "Shared services and components to reduce development time",
+        "Scalable design to handle increasing user load",
+        "Consistent user experience across different applications"
+      ],
+      "url": null
+    },
+    {
+      "name": "Airline's Representative Portal",
+      "desc": "Mobile friendly web-based application to capture and report ground handling operations.",
+      "techStack": [".Net", "HTML5", "jQuery", "Bootstrap", "MS SQL Server"],
+      "benefitsFromProject": [
+        "Streamlined reporting process for ground handling operations",
+        "Improved data accuracy and timeliness",
+        "Mobile accessibility for representatives in the field",
+        "Enhanced communication between ground staff and airline management"
+      ],
+      "url": null
+    }
+  ]
+}

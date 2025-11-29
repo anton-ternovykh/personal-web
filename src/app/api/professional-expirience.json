@@ -1,0 +1,39 @@
+{
+  "data": [
+    {
+      "name": "CorVel Corporation",
+      "location": "Portland, OR",
+      "role": "Lead Software Engineer",
+      "period": "November 2018 - Present",
+      "responsibilities": [
+        "Modernized internal financial systems by migrating from Silverlight to Angular and .NET Core microservices with RESTful APIs.",
+        "Developed enterprise invoicing application for 100+ users with Angular, .NET Core, and SQL Server; integrated with Azure DevOps CI/CD pipelines.",
+        "Designed high-performance rules-based decision engine using in-memory processing, achieving less than 100ms response times.",
+        "Maintained and optimized large-scale legacy systems (4000+ database objects in SQL Server).",
+        "Led distributed engineering team (4 developers) using Agile/Scrum, sprint planning, and code reviews."
+      ]
+    },
+    {
+      "name": "adidas Group CIS",
+      "location": "Moscow, Russia",
+      "role": "Application Architect / Senior Software Engineer",
+      "period": "April 2015 - November 2018",
+      "responsibilities": [
+        "Architected enterprise-grade applications for 1,000+ retail staff using Angular, ReactJS, ASP.NET Web API, and SQL Server.",
+        "Migrated legacy AngularJS apps to Angular, improving maintainability and performance.",
+        "Integrated HR and merchandising systems via SSIS, APIs, and SFTP; enabled real-time synchronization across departments.",
+        "Led Agile team of 4 developers; coordinated with global teams, performed code reviews, and ensured sprint delivery."
+      ]
+    },
+    {
+      "name": "Transaero Airlines",
+      "location": "Moscow, Russia",
+      "role": "Senor Software Engineer",
+      "period": "March 2012 - April 2015",
+      "responsibilities": [
+        "Developed multilingual web portal using ASP.NET Web Forms, SQL Server, and jQuery for international representatives.",
+        "Implemented dynamic UI features with jQuery and AJAX, enhancing usability and user access control."
+      ]
+    }
+  ]
+}

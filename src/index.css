@@ -1,1 +1,61 @@
+@import "./fonts.css";
 @import "tailwindcss";
+
+@theme {
+  /* Define the Retro Color Palette */
+  --color-retro-primary: #ca5647; /* Deep Terracotta Red */
+  --color-retro-accent: #f3c15e; /* Muted Golden Yellow */
+  --color-retro-secondary: #da929b; /* Dusty Rose Pink */
+  --color-retro-background: #b5cdcf; /* Pale Turquoise/Teal */
+  --color-retro-dark: #2a363b; /* Deep Blue-Gray/Charcoal */
+
+  /* Define the Vintage Dev Color Palette */
+  --color-vintagedev-dark: #584876; /* Deep Indigo/Plum (Main Text/Header) */
+  /* --color-vintagedev-dark: #ad6565; /*  (Main Text/Header) */
+  --color-vintagedev-accent: #a37164; /* Warm Dusty Brown (Buttons/Links/Accents) */
+  --color-vintagedev-light: #f8dfb9; /* Creamy Beige (Card Backgrounds) */
+  --color-vintagedev-background: #a1c6bf; /* Pale Seafoam Green (Page Background) */
+
+  --color-retro70s-darkbrown: #5c4033; /* Dark earthy brown */
+  --color-retro70s-mediumbrown: #7f5e3a; /* Medium warm brown */
+  --color-retro70s-burntorange: #b86b25; /* Distinct burnt orange */
+  --color-retro70s-lightorange: #d9903d; /* Lighter, brighter orange */
+  --color-retro70s-olivegreen-dark: #6b7b4b; /* Darker olive/army green */
+  --color-retro70s-olivegreen-light: #92a370; /* Lighter olive green */
+  --color-retro70s-background: #f5f5dc; /* Creamy off-white background */
+
+  --color-theme-background: var(--color-retro70s-background);
+  --color-theme-primary: var(--color-retro70s-darkbrown);
+  --color-theme-secondary: var(--color-retro70s-mediumbrown);
+  --color-theme-border: var(--color-retro70s-burntorange);
+  --color-theme-accent: var(--color-retro70s-olivegreen-dark);
+  --color-theme-block-background: var(--color-retro70s-olivegreen-light);
+
+  /* Define the font family */
+  --font-montserrat: Montserrat, sans-serif;
+  --font-open-sans: Open Sans, sans-serif;
+}
+
+@layer components {
+  /* Define a custom class for scrollbars */
+  .scrollbar-thin {
+    /* For Firefox */
+    scrollbar-width: thin;
+    scrollbar-color: #374151 #111827; /* thumb color track color */
+  }
+
+  /* For Webkit browsers (Chrome, Safari, Edge) */
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: #edf2f7; /* Tailwind gray-100 */
+    border-radius: 10px;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background-color: #111827; /* Tailwind gray-900 */
+    border-radius: 10px;
+  }
+}
