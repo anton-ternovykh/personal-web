@@ -1,6 +1,6 @@
 function ProfilePhoto() {
   return (
-    <div className="flex justify-center mb-6">
+    <div className="flex justify-center mb-6 hidden lg:block">
       <img
         src="/photo.jpg"
         alt="Anton Ternovykh Headshot"
