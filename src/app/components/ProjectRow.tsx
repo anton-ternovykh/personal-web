@@ -11,7 +11,7 @@ export default function ProjectRow(props: ProjectProps) {
 
   return (
     <div className="p-4 border-l-4 border-theme-border rounded-lg shadow-md hover:shadow-xl transition duration-300">
-      <h3 className="text-xl font-bold text-theme-primary">{props.desc}</h3>
+      <h3 className="text-xl font-bold text-theme-primary">{props.name}</h3>
       <p className="text-theme-primary italic pt-3">{props.desc}</p>
       <p className="mt-2 text-base">
         Technologies Used:{" "}
