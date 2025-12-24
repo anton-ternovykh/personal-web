@@ -1,6 +1,41 @@
 {
   "data": [
     {
+      "name": "Financial applications suite",
+      "desc": "Web-based application suite to support invoicing, billing, and reporting enterprise-level processes.",
+      "techStack": [
+        ".Net",
+        "Angular",
+        "MS SQL Server",
+        "Entity Framework",
+        "Azure"
+      ],
+      "benefitsFromProject": [
+        "Centralized platform for financial management",
+        "Real-time data access and reporting",
+        "Audit-trail by design",
+        "Integration with other including 3rd party business systems for seamless data flow"
+      ],
+      "url": null
+    },
+    {
+      "name": "Real-time decision-helper platform",
+      "desc": "Web-based platform to provide real-time decision support for various business processes.",
+      "techStack": [
+        "Net",
+        "Angular",
+        "MS SQL Server",
+        "Entity Framework",
+        "Azure"
+      ],
+      "benefitsFromProject": [
+        "Automated decision-making based on predefined rules",
+        "User-friendly interface for easy rule creation and management",
+        "Integration with other business systems so present recommendations to users",
+        "Real-time data evaluation and returning instructions under 100ms"
+      ]
+    },
+    {
       "name": "Timekeeping",
       "desc": "Web-based application for a store's employee management, including recruitment, time-keeping, reporting, and payroll.",
       "techStack": [
@@ -15,6 +50,24 @@
         "Improved accuracy in time-keeping and payroll",
         "Integration with BI tools for advanced reporting",
         "Enhanced recruitment process with applicant tracking"
+      ],
+      "url": null
+    },
+    {
+      "name": "Merchandaising platform",
+      "desc": "Web-based mobile friendly application for managing store's merchandise.",
+      "techStack": [
+        ".Net",
+        "Angular",
+        "MS SQL Server",
+        "Entity Framework",
+        "Power BI"
+      ],
+      "benefitsFromProject": [
+        "Centralized platform for managing merchandise across multiple stores",
+        "Real-time inventory management and reporting",
+        "Integration with other business systems for seamless data flow",
+        "Enhanced decision-making with advanced analytics"
       ],
       "url": null
     },

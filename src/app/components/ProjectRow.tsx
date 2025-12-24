@@ -22,6 +22,14 @@ export default function ProjectRow(props: ProjectProps) {
           </span>
         ))}
       </p>
+      <p className="mt-2 text-base font-bold">Benefits for the business:</p>
+      <ul className="list-disc pl-5">
+        {props.benefitsFromProject.map((value, index) => (
+          <li key={index} className="text-theme-primary">
+            {value}
+          </li>
+        ))}
+      </ul>
       {projectUrlExists ? (
         <a
           href="#"
